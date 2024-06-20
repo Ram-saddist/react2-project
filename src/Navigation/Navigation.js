@@ -21,6 +21,7 @@ export default function Navigation() {
             {
               userRole === "admin" && <Link to="/add-product">Add Product</Link>
             }
+            <Link to="/cart">Cart</Link>
             <Link onClick={handleLogout}>Logout</Link>
           </>
         ) : (
